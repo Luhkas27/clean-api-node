@@ -1,18 +1,18 @@
 {
   "name": "clean-api-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "Construindo uma API REST em NodeJs utilizando TDD, Clean Architecture e Design Patterns.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll",
-    "test:staged": "jest --passWithNoTests"
+    "test": "jest --watchAll --silent --noStackTrace",
+    "test:staged": "jest --passWithNoTests --findRelatedTests --silent --noStackTrace"
   },
   "standard": {
     "env": [
       "jest"
     ]
   },
-  "author": "",
+  "author": "Lucas Cardoso",
   "license": "ISC",
   "devDependencies": {
     "husky": "^4.2.5",
